@@ -1,4 +1,4 @@
-# lab2
+# adopt-pets
 
 ## Project setup
 ```
