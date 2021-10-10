@@ -15,7 +15,7 @@ export default {
   components: {
     PetTable
   },
-  data() {
+  data () {
     return {}
   },
   computed: {

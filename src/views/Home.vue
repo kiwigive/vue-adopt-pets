@@ -44,7 +44,7 @@ import { mapActions, mapGetters } from 'vuex'
 
 export default {
   name: 'home',
-  data() {
+  data () {
     return {
       showPetForm: false,
       formData: {
@@ -65,10 +65,10 @@ export default {
     ...mapActions([
       'addPet'
     ]),
-    togglePetForm() {
+    togglePetForm () {
       this.showPetForm = !this.showPetForm
     },
-    handleSubmit() {
+    handleSubmit () {
       const { species, age, name } = this.formData
       const payload = {
         species,
